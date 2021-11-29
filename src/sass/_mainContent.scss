@@ -1,0 +1,70 @@
+.mainContent {
+  min-height: calc(100vh - 60px);
+  background-color: lightgray;
+}
+
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid cornflowerblue;
+  width: 300px;
+  color: gray;
+}
+
+.taskLabel {
+  padding-top: 10px;
+}
+
+.taskInput {
+  outline: none;
+  border-radius: 6px;
+  margin: 10px 0;
+  border: 1px solid cornflowerblue;
+  height: 26px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.taskAddButton {
+  margin-top: 10px;
+}
+
+.taskList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.taskItem {
+  width: 20%;
+  border: 1px solid cornflowerblue;
+  border-radius: 16px;
+  margin: 4px;
+  color: gray;
+  padding: 10px;
+}
+
+.itemDeleteButton {
+  display: block;
+  margin: 10px auto;
+}
+
+.pagList {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.pagItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.pagItem {
+  cursor: pointer;
+}
+
+.pagItemActive {
+  background-color: crimson;
+}

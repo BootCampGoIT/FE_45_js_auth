@@ -1,0 +1,58 @@
+.mainModal {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  z-index: 999;
+}
+
+.mainModalContent {
+  max-height: 300px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.closed {
+  display: none;
+}
+
+.modal_settings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.settings_title {
+  border-bottom: 2px solid cornflowerblue;
+  padding-bottom: 5px;
+}
+.closeButton {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.settings_mode {
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.settings_mode input {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.settings_mode,
+.closeButton {
+  margin-top: 20px;
+}
